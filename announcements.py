@@ -61,7 +61,7 @@ def get_announcement(ignore_last_tag: bool = False) -> dict | None:
         'accept': 'application/vnd.github+json'
     }
     try:
-        response = requests.get("https://api.github.com/gists/cfd2177869feab9e64ab62918f708389", headers=headers)
+        response = requests.get("https://api.github.com/gists/23076e6c858b114823596e6507daf1a5", headers=headers)
         if not response.status_code == 200:
             return None
 
